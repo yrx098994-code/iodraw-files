@@ -1,0 +1,143 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="597" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9FtMwzDt63OaujpZjDwH-1" value="KGC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-2" value="DO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-3" value="Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="532" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-4" value="Edge Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="900" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-5" value="Cloud Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1257" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-6" value="DR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1461" y="20" width="150" height="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-7" value="1. System initialization" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-1" target="9FtMwzDt63OaujpZjDwH-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="131" />
+              <mxPoint x="146" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-8" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-1" target="9FtMwzDt63OaujpZjDwH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-9" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-10" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-11" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-12" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="929" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-13" value="3. Send signature, ciphertext, and data tag" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-14" value="4. Aggregate and verify the signature" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1026" y="553" />
+              <mxPoint x="1026" y="583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-15" value="5. Upload the data tag and the signature" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-16" value="5. Send the ciphertext and the data tag" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1162" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-17" value="6. Send the key fragment (b, fb)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-18" value="7. Search tag and publish the data sharing request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-6" target="9FtMwzDt63OaujpZjDwH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1083" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-19" value="7. Search tag and publish the data sharing request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-3" target="9FtMwzDt63OaujpZjDwH-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="978" y="863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-20" value="7. Send ciphertext" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-5" target="9FtMwzDt63OaujpZjDwH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1443" y="919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-21" value="9. Send the key fragment" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-3" target="9FtMwzDt63OaujpZjDwH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-22" value="10. Recover the key and decrypt the ciphertext" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-6" target="9FtMwzDt63OaujpZjDwH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1587" y="1031" />
+              <mxPoint x="1587" y="1061" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
