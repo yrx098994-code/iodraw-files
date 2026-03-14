@@ -22,118 +22,137 @@
         <mxCell id="9FtMwzDt63OaujpZjDwH-6" value="DR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
           <mxGeometry x="1461" y="20" width="150" height="1146" as="geometry" />
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-7" value="1. System initialization" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-1" target="9FtMwzDt63OaujpZjDwH-1">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-23" value="IoT Devices layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1190" width="347" height="646" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-24" value="Service layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="387" y="1354" width="757" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-25" value="Storage layer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="1639" width="221" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-26" value="Cloud Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1199" y="1664" width="151" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-27" value="Blockchain" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="933" y="1500" width="137" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-28" value="KGC" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="422" y="1379" width="90" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-29" value="Edge Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1379" width="145" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-30" value="IoT Devices" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="107" y="1215" width="141" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-31" value="Data Requester" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="157" y="1500" width="170" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-32" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1525" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-33" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="697" y="1688" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-34" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="1688" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-35" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="242" y="1811" as="geometry" />
+        </mxCell>
+        <mxCell id="9FtMwzDt63OaujpZjDwH-36" value="1.Register" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=0.99;entryX=0;entryY=0.37;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-30" target="9FtMwzDt63OaujpZjDwH-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="146" y="131" />
-              <mxPoint x="146" y="161" />
+              <mxPoint x="102" y="1309" />
+              <mxPoint x="102" y="1354" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-8" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-1" target="9FtMwzDt63OaujpZjDwH-2">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-37" value="2.Signature, data tag and ciphertext" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.99;entryX=0;entryY=0.32;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-30" target="9FtMwzDt63OaujpZjDwH-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="209" y="217" />
+              <mxPoint x="253" y="1309" />
+              <mxPoint x="253" y="1354" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-9" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-3">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-38" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=0.36;exitY=0.99;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-29" target="9FtMwzDt63OaujpZjDwH-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="465" y="273" />
+              <mxPoint x="625" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-10" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-4">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-39" value="3.Aggregate and verify signatures" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=Infinity;exitY=-Infinity;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-32" target="9FtMwzDt63OaujpZjDwH-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="649" y="329" />
+              <mxPoint x="625" y="1639" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-11" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-5">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-40" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=Infinity;exitY=Infinity;entryX=0.64;entryY=0.99;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-33" target="9FtMwzDt63OaujpZjDwH-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="827" y="385" />
+              <mxPoint x="729" y="1639" />
+              <mxPoint x="729" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-12" value="2. User registration" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-6">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-41" value="4.Data tag and signature" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=0.99;entryX=0.03;entryY=0.01;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-29" target="9FtMwzDt63OaujpZjDwH-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="929" y="441" />
+              <mxPoint x="842" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-13" value="3. Send signature, ciphertext, and data tag" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-4">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-42" value="5.Ciphertext and data tag" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.22;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-27" target="9FtMwzDt63OaujpZjDwH-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="649" y="497" />
+              <mxPoint x="1001" y="1639" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-14" value="4. Aggregate and verify the signature" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-4">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-43" value="6.Data sharing request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=0.07;entryY=0.99;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-31" target="9FtMwzDt63OaujpZjDwH-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1026" y="553" />
-              <mxPoint x="1026" y="583" />
+              <mxPoint x="522" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-15" value="5. Upload the data tag and the signature" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-3">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-44" value="7.Data sharing request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.6;entryY=0.01;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-29" target="9FtMwzDt63OaujpZjDwH-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="803" y="639" />
+              <mxPoint x="1035" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-16" value="5. Send the ciphertext and the data tag" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-4" target="9FtMwzDt63OaujpZjDwH-5">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-45" value="8. Key fragment and ciphertext" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.91;entryY=0.01;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-29" target="9FtMwzDt63OaujpZjDwH-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1162" y="695" />
+              <mxPoint x="417" y="1464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-17" value="6. Send the key fragment (b, fb)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-2" target="9FtMwzDt63OaujpZjDwH-3">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-46" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=0.4;exitY=1;entryX=-Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-31" target="9FtMwzDt63OaujpZjDwH-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="465" y="751" />
+              <mxPoint x="194" y="1594" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-18" value="7. Search tag and publish the data sharing request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-6" target="9FtMwzDt63OaujpZjDwH-3">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-47" value="9.Decrypt ciphertext" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=-Infinity;exitY=Infinity;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-34" target="9FtMwzDt63OaujpZjDwH-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1083" y="807" />
+              <mxPoint x="194" y="1774" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-19" value="7. Search tag and publish the data sharing request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-3" target="9FtMwzDt63OaujpZjDwH-5">
+        <mxCell id="9FtMwzDt63OaujpZjDwH-48" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=Infinity;exitY=-Infinity;entryX=0.6;entryY=1;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-35" target="9FtMwzDt63OaujpZjDwH-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="978" y="863" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-20" value="7. Send ciphertext" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-5" target="9FtMwzDt63OaujpZjDwH-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1443" y="919" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-21" value="9. Send the key fragment" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-3" target="9FtMwzDt63OaujpZjDwH-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="975" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FtMwzDt63OaujpZjDwH-22" value="10. Recover the key and decrypt the ciphertext" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="9FtMwzDt63OaujpZjDwH-6" target="9FtMwzDt63OaujpZjDwH-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1587" y="1031" />
-              <mxPoint x="1587" y="1061" />
+              <mxPoint x="292" y="1774" />
+              <mxPoint x="292" y="1594" />
             </Array>
           </mxGeometry>
         </mxCell>
